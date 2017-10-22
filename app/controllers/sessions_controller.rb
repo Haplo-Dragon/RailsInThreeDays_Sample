@@ -11,8 +11,8 @@ class SessionsController < ApplicationController
 
       # If the session's remember_me attribute (from the checkbox) is set to 1, call
       # remember(user) method. If it's not, call forget(user) method using ternary operator
-      params[:session][:remember_me] == '1' ? remember(@user) : forget(@user)      
-      redirect_to @user
+      params[:session][:remember_me] == '1' ? remember(@user) : forget(@user)    
+      redirect_back_or(@user)
   	else
   		# Create and flash an error message
   		flash.now[:danger] = "Invalid email/password combination"

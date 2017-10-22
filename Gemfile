@@ -12,6 +12,12 @@ gem 'rails', '~> 5.1.4'
 gem 'bcrypt', '~> 3.1.11'
 # Use Bootstrap as the CSS framework
 gem 'bootstrap-sass'
+# Use faker to generate sample users
+gem 'faker'
+# Use will_paginate to support pagination of users
+gem 'will_paginate'
+# Use bootstrap pagination styles
+gem 'bootstrap-will_paginate'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
