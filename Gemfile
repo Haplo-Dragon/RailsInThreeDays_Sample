@@ -18,6 +18,12 @@ gem 'faker'
 gem 'will_paginate'
 # Use bootstrap pagination styles
 gem 'bootstrap-will_paginate'
+# Use carrierwave to upload images
+gem 'carrierwave'
+# Use mini_magick for image resizing
+gem 'mini_magick'
+# Use fog for image upload
+gem 'fog'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
